@@ -6,13 +6,20 @@
 
 // Console.Write("Введите число: ");
 // int num = Convert.ToInt32(Console.ReadLine());
-// if ( num < 100)
-// Console.WriteLine("Третьей цифры нет");
+// int rez = 0;
+
+// if (num < 100)
+//     Console.WriteLine("Третьей цифры нет");
 // else
 // {
-//     int num1 = num % 100 / 10
+//     while (num > 999)
+//     {
+//         num /= 10;
+//         rez = num % 10;
+//     }
+// Console.WriteLine("Третья цифра " + rez);
 // }
-// Console.WriteLine("Третья цифра " +num % 100 / 10);
+
 
 
 
